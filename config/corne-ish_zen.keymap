@@ -46,12 +46,12 @@
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// |      |     |     |     |     |     |   |  +  |  [  |  ]  |  -  | "|" |   =  |
+// |      |     |     |     |     |     |   |  +  |  [  |  ]  |  -  |  '  |   =  |
 // |      |     |     |     |     |     |   |     |     |     | "|" |  /  |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
    &kp ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR   &kp RPAR &kp BSPC
-   &trans  &trans   &trans &trans   &trans   &trans      &kp PLUS   &kp LBKT  &kp RBKT        &kp MINUS  &kp PIPE &kp EQUAL
+   &trans  &trans   &trans &trans   &trans   &trans      &kp PLUS   &kp LBKT  &kp RBKT        &kp MINUS  &kp SQT  &kp EQUAL
    &trans  &trans   &trans &trans   &trans   &trans      &trans     &trans    &trans          &kp BSLH   &kp FSLH &trans
                     	     &trans &trans   &trans      &trans     &trans    &trans
                         >;
